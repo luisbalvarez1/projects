@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: linear-gradient(45deg, #add8e6 25%, transparent 25%), linear-gradient(-45deg, #add8e6 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #add8e6 75%), linear-gradient(-45deg, transparent 75%, #add8e6 75%);
+    background-size: 50px 50px;
+    background-position: 0 0, 0 25px, 25px -25px, -25px 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center align items vertically */
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.container {
+    width: 50%; /* Adjust the width to make the box smaller */
+    margin: 0 auto 10px; /* Center the box horizontally and add margin at the bottom */
+    padding: 20px;
+    background-color: #000080;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.info-box {
+    width: 50%; /* Adjust the width to make the box smaller */
+    margin: 0 auto 20px; /* Center the box horizontally and add margin at the bottom */
+    padding: 10px; /* Slightly reduce the padding */
+    background-color: #006400; /* Dark green background */
+    color: gold; /* Gold text */
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;
+}
+
+.info-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: green; /* Green background */
+    color: gold; /* Gold text */
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    text-align: center;
+}
+
+#text-input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#check-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #800080;
+    color: white;
+    cursor: pointer;
+}
+
+#check-btn:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
